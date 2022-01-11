@@ -1,0 +1,11 @@
+mongodb:
+  encryption:
+    local-master-key: ""
+    data-key-id: ""
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: test
+      uri: ""
